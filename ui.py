@@ -3,7 +3,7 @@ import requests
 import uuid
 import pandas as pd
 
-API_URL = "http://localhost:8000"  # Make sure your FastAPI is running here
+API_URL = "https://your-fastapi-service.onrender.com"  # Make sure your FastAPI is running here
 
 st.set_page_config(page_title="AI Automation Tool", layout="centered")
 st.title("🤖 No-Code AI Automation Builder")
